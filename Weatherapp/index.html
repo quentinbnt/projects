@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="searchcontainer">
+        <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+        <button class="searchControl" id="searchBtn">search</button>
+    </div>
+    <div class="location"></div>
+        <h1 class="location-timezone">Timezone</h1>
+        <p>Icon</p>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>C</span>
+        </div>    
+        <div class="temperature-description">It's friggin cold</div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
